@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  web:
+    container_name: tasker
+    build: .
+    ports:
+      - "8010:8000"
