@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 @csrf_exempt
 def list_tasks(request):
     """
-    List all tasks with a pagination. This is used as an endpoint to gather the tasks
+    List all tasks.
 
     :param request:
     :return:
